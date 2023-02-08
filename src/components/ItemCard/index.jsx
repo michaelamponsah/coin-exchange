@@ -2,11 +2,14 @@ import React from 'react';
 import { PropTypes } from 'prop-types';
 import { FiArrowRightCircle } from 'react-icons/fi';
 import './style.css';
+import { NavLink } from 'react-router-dom';
 
 const ItemCard = ({ image, name, rank }) => (
   <div className="card-wrapper">
     <div className="card-header">
-      <FiArrowRightCircle className="icon" />
+      <NavLink to="/details">
+        <FiArrowRightCircle className="icon" />
+      </NavLink>
     </div>
     <div className="card-body">
       <img src={image} alt={name} />
