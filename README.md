@@ -46,7 +46,10 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- You may see a live demo [here](https://michaelamponsah.github.io/todo-app/dist)
+- You may click here to see a live demo [here](https://coin-exchange.onrender.com)
+
+## Demo Video
+- You click [here](https://www.loom.com/share/1f85659a1551459e9fef1760d169f543) to watch a demo video of this project 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
