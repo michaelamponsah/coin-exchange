@@ -1,0 +1,24 @@
+.card-wrapper {
+  padding: 1em;
+  width: 100%;
+  color: #fefefe;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-header {
+  margin: 0.5em 0;
+  align-self: flex-end;
+}
+
+.card-footer {
+  margin: 0.5em 0;
+  align-self: flex-end;
+  font-size: 15px;
+  text-align: right;
+}
+
+.card-footer p {
+  margin: 0.25em 0;
+}
