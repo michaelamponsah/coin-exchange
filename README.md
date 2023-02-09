@@ -46,7 +46,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- You may click here to see a live demo [here](https://coin-exchange.onrender.com)
+- You may click here to see a live demo [here](https://grand-tanuki-5539ac.netlify.app/details/gdax)
 
 ## Demo Video
 - You click [here](https://www.loom.com/share/1f85659a1551459e9fef1760d169f543) to watch a demo video of this project 
