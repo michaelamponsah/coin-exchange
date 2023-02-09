@@ -3,9 +3,9 @@ import ItemList from '../../components/ItemList';
 import './style.css';
 
 const Home = () => (
-  <div>
+  <section className="home-wrapper">
     <ItemList />
-  </div>
+  </section>
 );
 
 export default Home;
