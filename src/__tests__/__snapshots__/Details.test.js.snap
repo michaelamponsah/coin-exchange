@@ -49,7 +49,9 @@ exports[`Details component renders as expected 1`] = `
     className="img-wrapper"
   >
     <img
+      alt="Coinbase Exchange"
       className="detail-img"
+      src="https://assets.coingecko.com/markets/images/23/small/Coinbase_Coin_Primary.png?1621471875"
     />
   </div>
   <ul
@@ -59,31 +61,41 @@ exports[`Details component renders as expected 1`] = `
       <span>
         Name: 
       </span>
-      <span />
+      <span>
+        Coinbase Exchange
+      </span>
     </li>
     <li>
       <span>
         URL: 
       </span>
-      <span />
+      <span>
+        https://www.coinbase.com
+      </span>
     </li>
     <li>
       <span>
         Year established: 
       </span>
-      <span />
+      <span>
+        2012
+      </span>
     </li>
     <li>
       <span>
         Country: 
       </span>
-      <span />
+      <span>
+        United States
+      </span>
     </li>
     <li>
       <span>
         Trade Volume in 24 hrs (BTC): 
       </span>
-      <span />
+      <span>
+        75483.15345614518
+      </span>
     </li>
     <li>
       <span>
@@ -97,13 +109,17 @@ exports[`Details component renders as expected 1`] = `
       <span>
         Trust score: 
       </span>
-      <span />
+      <span>
+        10
+      </span>
     </li>
     <li>
       <span>
         Trust score rank: 
       </span>
-      <span />
+      <span>
+        1
+      </span>
     </li>
   </ul>
 </section>
