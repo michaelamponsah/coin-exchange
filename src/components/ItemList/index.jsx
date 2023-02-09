@@ -22,6 +22,7 @@ const ItemList = () => {
         exchanges.map((exchange) => (
           <li key={exchange.id}>
             <ItemCard
+              id={exchange.id}
               image={exchange.image}
               name={exchange.name}
               rank={exchange.trust_score_rank}

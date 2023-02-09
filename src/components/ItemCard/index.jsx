@@ -4,10 +4,12 @@ import { FiArrowRightCircle } from 'react-icons/fi';
 import './style.css';
 import { NavLink } from 'react-router-dom';
 
-const ItemCard = ({ image, name, rank }) => (
+const ItemCard = ({
+  id, image, name, rank,
+}) => (
   <div className="card-wrapper">
     <div className="card-header">
-      <NavLink to="/details">
+      <NavLink to={`/details/${id}`}>
         <FiArrowRightCircle className="icon" />
       </NavLink>
     </div>
@@ -25,6 +27,7 @@ const ItemCard = ({ image, name, rank }) => (
 );
 
 ItemCard.propTypes = {
+  id: PropTypes.string.isRequired,
   image: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   rank: PropTypes.number,

@@ -7,12 +7,6 @@
   align-items: center;
 }
 
-.icon {
-  display: inline-block;
-  width: 28px;
-  height: 28px;
-}
-
 .card-header {
   margin: 0.5em 0;
   align-self: flex-end;
