@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import { FiArrowLeftCircle } from 'react-icons/fi';
 import { useSelector } from 'react-redux';
 import { NavLink, useParams } from 'react-router-dom';
@@ -10,7 +10,6 @@ const Details = () => {
   const { id } = useParams();
 
   const data = exchanges.filter((exchange) => exchange.id === id);
-  const [state, setState] = useState({ data: {} });
 
   useEffect(() => {
     if (data.length > 0) {
@@ -18,10 +17,7 @@ const Details = () => {
     }
   }, [data]);
 
-  useEffect(() => {
-    const data = JSON.parse(window.localStorage.getItem('details'));
-    setState({ data });
-  }, []);
+  const items = JSON.parse(window.localStorage.getItem('details'));
 
   const {
     name,
@@ -33,7 +29,7 @@ const Details = () => {
     trust_score_rank: rank,
     has_trading_incentive: hasIncentive,
     country,
-  } = state.data;
+  } = items;
 
   return (
     <section>
@@ -43,7 +39,7 @@ const Details = () => {
         </NavLink>
       </div>
       <div className="img-wrapper">
-        <img className="detail-img" src={image} alt={state.name} />
+        <img className="detail-img" src={image} alt={name} />
       </div>
       <ul className="detail-list">
         <li>
