@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { FiArrowLeftCircle } from 'react-icons/fi';
 import { useSelector } from 'react-redux';
 import { NavLink, useParams } from 'react-router-dom';
@@ -11,11 +11,9 @@ const Details = () => {
 
   const data = exchanges.filter((exchange) => exchange.id === id);
 
-  useEffect(() => {
-    if (data.length > 0) {
-      window.localStorage.setItem('details', JSON.stringify(data[0]));
-    }
-  }, [data]);
+  if (data.length > 0) {
+    window.localStorage.setItem('details', JSON.stringify(data[0]));
+  }
 
   const items = JSON.parse(window.localStorage.getItem('details'));
 
