@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Details component renders as expected 1`] = `
+<section>
+  <div
+    className="head"
+  >
+    <a
+      aria-current="page"
+      className="active"
+      href="/"
+      onClick={[Function]}
+    >
+      <svg
+        className="icon details-icon"
+        fill="none"
+        height="1em"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <circle
+          cx="12"
+          cy="12"
+          r="10"
+        />
+        <polyline
+          points="12 8 8 12 12 16"
+        />
+        <line
+          x1="16"
+          x2="8"
+          y1="12"
+          y2="12"
+        />
+      </svg>
+    </a>
+  </div>
+  <div
+    className="img-wrapper"
+  >
+    <img
+      alt="Coinbase Exchange"
+      className="detail-img"
+      src="https://assets.coingecko.com/markets/images/23/small/Coinbase_Coin_Primary.png?1621471875"
+    />
+  </div>
+  <ul
+    className="detail-list"
+  >
+    <li>
+      <span>
+        Name: 
+      </span>
+      <span>
+        Coinbase Exchange
+      </span>
+    </li>
+    <li>
+      <span>
+        URL: 
+      </span>
+      <span>
+        https://www.coinbase.com
+      </span>
+    </li>
+    <li>
+      <span>
+        Year established: 
+      </span>
+      <span>
+        2012
+      </span>
+    </li>
+    <li>
+      <span>
+        Country: 
+      </span>
+      <span>
+        United States
+      </span>
+    </li>
+    <li>
+      <span>
+        Trade Volume in 24 hrs (BTC): 
+      </span>
+      <span>
+        75483.15345614518
+      </span>
+    </li>
+    <li>
+      <span>
+        Has trading incentive: 
+      </span>
+      <span>
+        False
+      </span>
+    </li>
+    <li>
+      <span>
+        Trust score: 
+      </span>
+      <span>
+        10
+      </span>
+    </li>
+    <li>
+      <span>
+        Trust score rank: 
+      </span>
+      <span>
+        1
+      </span>
+    </li>
+  </ul>
+</section>
+`;
